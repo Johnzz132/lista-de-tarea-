@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>to do list</title>
+  <link rel ="preconnect" href="https://googleapis.com">
+  <link rel ="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+ </head>  
+ <body>
+  
+
+
+
+
+  <div class="container">
+    <div class="perfil">
+        <div id="fecha"> 23 de enero de 2024</div>
+        <h1>Hola, john rodriguez</h1>
+        <span>vamos a guadar tus tareas</span>
+</div>
+
+<div class="agregar-tarea">
+     <input type="text" id="input" placeholder="agregar una tarea">
+     <i id="enter" class="fas fa-plus-circle"></i>
+</div>
+
+
+<div class="seccion-tarea">
+     <h3>estas son tus tareas pendientes</h3>
+     <ul class="lista">
+    <li>
+    
+       <i class="far fa-circle co" data="realizado" id="0"></i>
+       <p class="text"> primera tarea</p>
+       <i class="fas fa-trash de" data="eliminado" id="0"></i> 
+
+         </li>
+         <li>
+    
+          <i class="far fa-circle co" data="realizado" id="0"></i>
+          <p class="text"> segunda tarea</textarea></p>
+          <i class="fas fa-trash de" data="eliminado" id="0"></i> 
+   
+            </li>
+
+         <li>
+    
+          <i class="far fa-circle co" data="realizado" id="0"></i>
+          <p class="textm line-through "> tercera tarea </p>
+          <i class="fas fa-trash de" data="eliminado" id="0"></i> 
+   
+            </li>
+
+           
+                
+                        
+
+      </ul>
+
+    </div>
+
+    <div class="cont-container">
+    <h5 id="total-container">total 3</h5>
+    <h5 id="completed-continer"> completas 1</h5>
+    <h5 id="incompleted-container">incompleto 2</h5>
+
+    
+
+    </div>
+
+
+
+
+
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>
